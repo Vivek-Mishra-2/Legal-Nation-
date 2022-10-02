@@ -1,0 +1,178 @@
+ h1{
+    font-size: 76px;
+    color: white;
+    display: inline-block;
+    margin: 47px 0px 0px 550px;
+    padding: 4px 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menubar{
+    /* border: 3px solid rgb(186, 194, 193); */
+    border-radius: 8px;
+    display: inline-block;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: rgb(177, 166, 166);
+    margin: auto 0px;
+    padding: 11px 45px;
+}
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+    margin: -35px 0px -25px 0px;
+}
+.menubar ul li{
+    width: 120px;
+    margin-right: 120px;
+    padding: 10px;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 9px;
+    font-size: large;
+    margin-right: 5px;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+} 
+
+.menubar li a:hover{
+    color: grey;
+    font-size: small;
+}
+.submenu{
+    display: none;
+}
+.submenu ul li a{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px;
+}
+.submenu ul li a:hover{
+    background-color: darkgray;
+    font-size: small;
+}
+.menubar ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.479);
+    margin-top: 15px;
+    margin-left: -20px;
+    padding: 5px 5px;
+}
+.menubar ul li:hover .submenu ul{
+    display: block;
+    margin: 1px;
+    background-color: rgb(223, 208, 208);
+}
+.menubar ul li:hover .submenu ul li{
+       width: 150px;
+       padding: 10px;
+       border-bottom: 1px dotted black;
+       background: transparent;
+       border-radius: 0;
+       text-align: left;
+}
+.menubar ul li:hover .submenu ul li:last-child{
+    border-bottom: none;
+}
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin: 4px auto;
+    position: absolute;
+    padding: auto 4px;
+}
+.left img{
+    width: 60px;
+    margin: -93px 7px 4px 25px;
+    float: left;
+}
+.left div{
+    line-height: 36px;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 3px 3px;
+    margin: -43px 4px;
+}
+/* .mid{
+    /* border: 2px solid rgb(13, 30, 182); */
+    /* display: block;
+    width: 52%;
+    margin: auto;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    font-size: large;
+}
+.navbar li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 32px 5px;
+    margin: auto 1px;
+} / */
+/* .navbar li a:hover{
+    color: rgb(240, 170, 80);
+    cursor: pointer;
+    font-size: 15px;
+} */
+/* .right{
+    /* border: 2px solid rgb(110, 175, 143); */
+    /* position: absolute;
+    right: 23px;
+    top: 13px;
+}
+.right div{
+    display: inline-block;
+    padding: 8px 14px;
+    margin:  55px 5px;
+}
+.right div:hover{
+    color: rgb(240, 170, 80);
+    cursor: pointer;
+} */ 
+/* .mid{
+    /* border: 2px solid rgb(13, 30, 182); */
+    /* display: block;
+    width: 100%;
+    margin: auto;
+}
+.navbar{
+    border: 3px solid rgb(51, 47, 47);
+    border-radius: 8px;
+    overflow: hidden;
+    display: inline-block;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: rgb(51, 47, 47);
+    margin: auto 0px;
+    padding: 11px 45px;
+}
+.navbar li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    font-size: large;
+}
+.navbar li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 32px 35px;
+    margin: auto 30px;
+} */ 
